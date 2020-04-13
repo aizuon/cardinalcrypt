@@ -1,0 +1,69 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Generators">
+      <UniqueIdentifier>{4e0dacdf-22c9-4a55-a532-bcd57f997a73}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Ciphers">
+      <UniqueIdentifier>{b6308cb5-7311-4b63-a3f8-a2f1a54235d4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Hashes">
+      <UniqueIdentifier>{0fe57714-0f41-4144-b5b6-77191e834b74}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="KeyGenerator.cpp">
+      <Filter>Generators</Filter>
+    </ClCompile>
+    <ClCompile Include="StandardCardinalCipher.cpp">
+      <Filter>Ciphers</Filter>
+    </ClCompile>
+    <ClCompile Include="AdvancedCardinalCipher.cpp">
+      <Filter>Ciphers</Filter>
+    </ClCompile>
+    <ClCompile Include="BaseCipher.cpp">
+      <Filter>Ciphers</Filter>
+    </ClCompile>
+    <ClCompile Include="Base64.cpp">
+      <Filter>Ciphers</Filter>
+    </ClCompile>
+    <ClCompile Include="CaesarCipher.cpp">
+      <Filter>Ciphers</Filter>
+    </ClCompile>
+    <ClCompile Include="StandardCardinalHash.cpp">
+      <Filter>Hashes</Filter>
+    </ClCompile>
+    <ClCompile Include="AdvancedCardinalHash.cpp">
+      <Filter>Hashes</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="KeyGenerator.h">
+      <Filter>Generators</Filter>
+    </ClInclude>
+    <ClInclude Include="StandardCardinalCipher.h">
+      <Filter>Ciphers</Filter>
+    </ClInclude>
+    <ClInclude Include="AdvancedCardinalCipher.h">
+      <Filter>Ciphers</Filter>
+    </ClInclude>
+    <ClInclude Include="BaseCipher.h">
+      <Filter>Ciphers</Filter>
+    </ClInclude>
+    <ClInclude Include="ROT13.h">
+      <Filter>Ciphers</Filter>
+    </ClInclude>
+    <ClInclude Include="Base64.h">
+      <Filter>Ciphers</Filter>
+    </ClInclude>
+    <ClInclude Include="CaesarCipher.h">
+      <Filter>Ciphers</Filter>
+    </ClInclude>
+    <ClInclude Include="StandardCardinalHash.h">
+      <Filter>Hashes</Filter>
+    </ClInclude>
+    <ClInclude Include="AdvancedCardinalHash.h">
+      <Filter>Hashes</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
